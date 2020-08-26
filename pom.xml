@@ -31,13 +31,13 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
-						<muleVersion>{mule.version}</muleVersion>
-						<username>{username}</username>
-						<password>{password}</password>
-						<applicationName>{application.name}</applicationName>
-						<environment>{environment}</environment>
-						<workers>{workers}</workers>
-						<workerType>{worker.type}</workerType>
+						<muleVersion>${mule.version}</muleVersion>
+						<username>${username}</username>
+						<password>${password}</password>
+						<applicationName>${application.name}</applicationName>
+						<environment>${environment}</environment>
+						<workers>${workers}</workers>
+						<workerType>${worker.type}</workerType>
 						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
 				<sharedLibraries>
